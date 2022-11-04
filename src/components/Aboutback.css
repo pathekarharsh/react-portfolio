@@ -1,0 +1,60 @@
+.about-img{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content-head{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img::before{
+    content: "";
+    background-image: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.about-img .content-head{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.about-img .content-head h1{
+    font-size: 3rem;
+    padding: 0.4rem 0 1.2rem 0;
+}
+
+.about-img .content-head p{
+    font-size: 1.4rem;
+    font-weight: 150;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px){
+    .about-img .content-head h1{
+        font-size: 2.5rem;
+    }
+    .about-img .content-head p{
+        font-size: 1rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}

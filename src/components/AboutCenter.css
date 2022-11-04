@@ -1,0 +1,55 @@
+.main{
+    width: 100%;
+    margin: 3rem 0;
+    align-items: center;
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.main .leftabout{
+    text-align: center;
+    margin-top: auto;
+    padding: 1.2rem;
+    max-width: 350px;
+}
+
+.leftabout p{
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+}
+
+.leftabout .contact-btn{
+    padding: 0.7rem;
+}
+
+.main .rightabout{
+    max-width: 700px;
+}
+
+.rightabout .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.rightabout .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+
+.rightabout .top{
+    grid-column: 1/span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.rightabout .bottom{
+    grid-column: 4/-1;
+    grid-row: 1;
+    z-index: 5;  
+}
