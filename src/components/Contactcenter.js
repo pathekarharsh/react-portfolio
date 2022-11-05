@@ -8,7 +8,7 @@ const Contactcenter = () => {
       <div className="heading">
         <h3>Let's have a chat.</h3>
       </div>
-      <div className="btn">
+      <div className="btn-light">
         <a href="mailto:name@email.com">EMAIL ME</a>
       </div>
     </div>
