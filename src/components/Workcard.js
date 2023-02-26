@@ -24,3 +24,17 @@ const Workcard = (props) => {
 };
 
 export default Workcard;
+
+/*
+
+import React, { Component } from 'react'
+
+export default class Workcard extends Component {
+  render() {
+    return (
+      <div>Workcard</div>
+    )
+  }
+}
+
+*/
