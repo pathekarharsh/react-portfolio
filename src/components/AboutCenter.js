@@ -11,8 +11,9 @@ const AboutCenter = () => {
       <div className="leftabout">
         <h1>Who Am I?</h1>
         <p>
-          I'm Harsh from India a web developer. I'm a Front End Developer, but i
-          know some back end topics also like NodeJS, ExpressJS and MongoDB.
+          I am a skilled website developer with expertise in both front-end and 
+          back-end development. My passion lies in creating, intuitive websites
+          that offer a seamless user experience.
         </p>
         <div className="contact-btn">
           <Link to="/contact" className="btn">
