@@ -17,7 +17,7 @@ const Heroimage = () => {
             PROJECTS
           </Link>
           <a
-            href="https://drive.google.com/file/d/1Kd60bUNldPZNTjl3XcBfyPczXaCEaU_c/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VaeZL5kTiWJaYHMXH9GnrzNQGxqSYk_n/view?usp=sharing"
             className="btn-light"
           >
             RESUME
