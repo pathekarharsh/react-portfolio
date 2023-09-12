@@ -4,6 +4,7 @@ import IntroImg from "../assets/mainback.jpg";
 import { Link } from "react-router-dom";
 
 const Heroimage = () => {
+  
   return (
     <div className="hero">
       <div className="mask">
@@ -11,7 +12,7 @@ const Heroimage = () => {
       </div>
       <div className="content">
         <p>HI, I'M HARSH.</p>
-        <h1>REACT DEVELOPER</h1>
+        <h1 className='typing-animation'>REACT DEVELOPER</h1>
         <div>
           <Link to="/project" className="btn">
             PROJECTS
