@@ -23,14 +23,14 @@ const ProjectCardData = [
   {
     imgURL: gpt,
     title: "OpenAi-ui",
-    desc: "Panorama Viewer: Experience the world in 360 degrees with our simple yet immersive project. Upload your panoramic images, powered by the Pano Lens library, and step into a breathtaking visual journey. This is a Javascript based project,",
+    desc: "Embark on my dynamic React-based UI journey, a fusion of creativity inspired by OpenAI. It's a visual masterpiece that brilliantly combines design elegance with the flexibility of React, offering an immersive and interactive user experience.",
     view: "https://www.linkedin.com/posts/harsh-pathekar-42b7971b8_project-ui-openai-activity-7095691803139477504-FuyJ?utm_source=share&utm_medium=member_desktop",
     source: "https://github.com/pathekarharsh/openAI-ui",
   },
   {
     imgURL: pano,
     title: "Panorama-Viewer",
-    desc: "This is a todo list app where you can easily add and remove your ToDos. This is also connected with MongoDb cloud for Database so that your ToDos will be saved. Also, you can create your custom title ToDo just by putting /title-name in URL.",
+    desc: "Panorama Viewer: Experience the world in 360 degrees with our simple yet immersive project. Upload your panoramic images, powered by the Pano Lens library, and step into a breathtaking visual journey. This is a Javascript based project.",
     view: "https://pathekarharsh.github.io/panorama-viewer/",
     source: "https://github.com/pathekarharsh/panorama-viewer",
   },
