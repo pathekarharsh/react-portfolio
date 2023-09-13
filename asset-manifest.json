@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c34f6777.css",
-    "main.js": "/react-portfolio/static/js/main.f7748365.js",
+    "main.css": "/react-portfolio/static/css/main.ac62e4d2.css",
+    "main.js": "/react-portfolio/static/js/main.41f771fb.js",
     "static/media/mainback.jpg": "/react-portfolio/static/media/mainback.41f61d005e89434247f0.jpg",
     "static/media/react1.png": "/react-portfolio/static/media/react1.80d3d67beed364b5a29d.png",
     "static/media/react21.png": "/react-portfolio/static/media/react21.974ee822a0bbb38dd732.png",
-    "static/media/textutil.png": "/react-portfolio/static/media/textutil.49b47f77ccfc1d36c628.png",
-    "static/media/todo.png": "/react-portfolio/static/media/todo.e73fc0c7c7b0e492f573.png",
-    "static/media/keeper.png": "/react-portfolio/static/media/keeper.e6c9862730fa50185c53.png",
+    "static/media/gpt.jpg": "/react-portfolio/static/media/gpt.98eb68f51678218e5ff9.jpg",
+    "static/media/nike.jpg": "/react-portfolio/static/media/nike.7e94a7eeaab5aa02c764.jpg",
+    "static/media/textutil.jpg": "/react-portfolio/static/media/textutil.f960ea63deb61f05811e.jpg",
+    "static/media/keeper.jpg": "/react-portfolio/static/media/keeper.5c9482da520427912bb3.jpg",
+    "static/media/pano.jpg": "/react-portfolio/static/media/pano.f754940a5441d794227e.jpg",
+    "static/media/todo.png": "/react-portfolio/static/media/todo.40ef6a3d4722f9a45512.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c34f6777.css.map": "/react-portfolio/static/css/main.c34f6777.css.map",
-    "main.f7748365.js.map": "/react-portfolio/static/js/main.f7748365.js.map"
+    "main.ac62e4d2.css.map": "/react-portfolio/static/css/main.ac62e4d2.css.map",
+    "main.41f771fb.js.map": "/react-portfolio/static/js/main.41f771fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34f6777.css",
-    "static/js/main.f7748365.js"
+    "static/css/main.ac62e4d2.css",
+    "static/js/main.41f771fb.js"
   ]
 }
