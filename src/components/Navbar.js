@@ -1,8 +1,7 @@
 import "./Navbar.css";
 import React, { useState } from "react";
+import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import { AiOutlineBars } from "react-icons/ai";
-import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -22,29 +21,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>&lt; H /&gt;</h1>
+        <img src={Logo} alt="Logo" width={180} height={180} />
       </Link>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/project">Projects</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-      <div className="dropdown" onClick={handleClick}>
-        {click ? ( //if else for dropdown and cross button with ternary operator
-          <ImCross size={20} style={{ color: "white" }} />
-        ) : (
-          <AiOutlineBars size={25} style={{ color: "white" }} />
-        )}
-      </div>
     </div>
   );
 };

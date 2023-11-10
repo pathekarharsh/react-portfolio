@@ -12,49 +12,30 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <div className="left-part">
-          <div className="email">
-            <AiOutlineMail
-              size={25}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <div>
-              <p>pathekarharsh@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div className="right-part">
-          <h3>Socials</h3>
-          <div className="social">
-            <a href="https://github.com/pathekarharsh">
-              <AiOutlineGithub
-                size={25}
+        <div className="social">
+        <a href="mailto:paryatakin@gmail.com">
+              <AiOutlineMail
+                size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a href="https://www.linkedin.com/in/harsh-pathekar-42b7971b8/">
+            <a href="https://www.linkedin.com/company/90696812/admin/feed/posts/">
               <AiFillLinkedin
-                size={25}
+                size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a href="https://twitter.com/iGniTe_04">
-              <AiOutlineTwitter
-                size={25}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-            </a>
-
-            <a href="https://www.instagram.com/ignite.3d/">
+            <a href="https://www.instagram.com/paryataksathi/">
               <AiOutlineInstagram
-                size={25}
+                size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-          </div>
         </div>
+        <p className='bottom'>2024  paryataksathi. All rights reserved.</p>
       </div>
-    </div>
+      
+      </div>
   );
 };
 

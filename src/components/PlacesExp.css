@@ -1,0 +1,21 @@
+.explore-places {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .exp-head{
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 30px; /* Adjust spacing between images */
+  }
+  
+  .image-grid img {
+    width: 100%; /* Image width */
+    height: auto; /* Retain aspect ratio */
+  }
+  

@@ -1,0 +1,32 @@
+.last_one{
+    text-align: center;
+    align-items: center;
+}
+
+.last_one .a{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto; /* Center the cards horizontally */
+    max-width: 60%; /* Set the maximum width */
+  }
+  
+  .card {
+    width: calc(25% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  

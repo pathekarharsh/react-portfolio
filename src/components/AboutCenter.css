@@ -12,7 +12,7 @@
     text-align: center;
     margin-top: auto;
     padding: 1.2rem;
-    max-width: 350px;
+    max-width: 750px;
 }
 
 .leftabout p{
@@ -25,31 +25,17 @@
 }
 
 .main .rightabout{
-    max-width: 700px;
+    max-width: 450px;
 }
 
 .rightabout .img-container{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
     position: relative;
     align-items: center;
     text-align: center;
 }
 
-.rightabout .img{
-    max-width: 90%;
+.rightabout img{
+    max-width: 50%;
     border: 1px solid #333;
-}
-
-.rightabout .top{
-    grid-column: 1/span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 6;
-}
-
-.rightabout .bottom{
-    grid-column: 4/-1;
-    grid-row: 1;
-    z-index: 5;  
 }
